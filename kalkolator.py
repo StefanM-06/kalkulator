@@ -1,8 +1,5 @@
 from math import pi
-import os
 
-def clear():
-    os.system("cls" if os.name == "nt" else "clear")
 
 def menu():
     print("=============================")
@@ -109,5 +106,6 @@ def main():
 if __name__ == "__main__":
     main()
     input("Натисни Enter за изход...")
+
 
 
